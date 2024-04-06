@@ -1,0 +1,129 @@
+body {
+    background-color: #495057;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.options {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 450px;
+}
+
+.login-btn .login {
+    width: 350px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+}
+
+.login:hover {
+    transition: ease-in-out 0.2s;
+    background-color: #FCA311;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.register-btn .register {
+    width: 350px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+}
+
+.register:hover {
+    transition: ease-in-out 0.2s;
+    background-color: #FCA311;
+}
+
+.register-btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+}
+
+.options h1 {
+    font-size: 25px;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+    text-justify: center;
+}
+
+
+
+/**** Log-in Page ****/
+
+.container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.box {
+    background: #FFFFFF;
+}
+
+.form-box{
+    width: 450px;
+    margin: 0px 10px;
+}
+
+.form-box header {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+
+.form-box form .field {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.form-box form .input input {
+    margin-left: 15px;
+    height: 40px;
+    width: 400px;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.btn {
+    margin-left: 15px;
+    width: 420px;
+    height: 35px;
+    background: #FCA311;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 15px;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 0px;
+}
+
+.btn:hover {
+    opacity: 0.82;
+}
+
+.submit {
+    width: 100%;
+}
